@@ -25,6 +25,7 @@ end
 
 def list(songs)
   songs.each_with_index do |song, index|
+    num = index + 1
     puts "#{num}. #{song}"
   end
 end
